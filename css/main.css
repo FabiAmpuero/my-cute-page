@@ -1,0 +1,15 @@
+/*--------------------------------------------------------------------GENERAL ------------*/
+* {
+    outline: 1px solid rgba(255, 0, 0, 0.4);
+}
+.img-responsive {
+    width: 100%;
+}
+.cat {
+    border-radius: 100%;
+    border: 1px solid purple;
+    padding: 7px;
+}
+.favorites .col {
+    margin: 15px;
+}
