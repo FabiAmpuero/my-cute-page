@@ -2,41 +2,15 @@
 <html>
   <head>
     <link type='text/css' rel='stylesheet' href='http://fonts.googleapis.com/css?family=Oswald'>
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Coustard|Galada|Oleo+Script+Swash+Caps" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-  
-  <div class="section group">
-	<div class="col span_1_of_8">
-	1 of 8
-	</div>
-	<div class="col span_1_of_8">
-	1 of 8
-	</div>
-	<div class="col span_1_of_8">
-	1 of 8
-	</div>
-	<div class="col span_1_of_8">
-	1 of 8
-	</div>
-	<div class="col span_1_of_8">
-	1 of 8
-	</div>
-	<div class="col span_1_of_8">
-	1 of 8
-	</div>
-	<div class="col span_1_of_8">
-	1 of 8
-	</div>
-	<div class="col span_1_of_8">
-	1 of 8
-	</div>
-</div>
 <!---------------------------------------------------------------------------- HEADER ------------>
  <header>
-     <div class="container">
+     <div class="contenedor">
          <div class="menu">
              <ul>
                  <li><a href="#about">ABOUT</a></li>
@@ -48,57 +22,64 @@
  </header>
  <!------------------------------------------------------------------------------ HERO ------------>
  <section class="hero">
-     <div class="container">
-         <img src="https://scontent.fgru3-1.fna.fbcdn.net/v/t1.0-9/555477_10200777656661310_1627703763_n.jpg?oh=f9c7d32a7282450fffd72111c90969fe&oe=58C158BA" alt="" width="180">
-         <h2>Fabiola Ampuero</h2>
-         <h4>Nunca te rindas</h4>
+     <div class="contenedor">
+        <div class="centro">
+         <img src="images/logo.png" alt="" width="80">
+         <h1>Fabiola Ampuero</h1>
+         <h3>Nunca te rindas</h3>
+        </div>
      </div>
  </section>
-<!------------------------------------------------------------------------------- ABOUT ------------>
+<!------------------------------------------------------------------------------ ABOUT ------------>
 <section class="contenido">
-    <div class="container">
-        <h1><a name="about">About me</a></h1>
+    <div class="contenedor">
+        <h2><a name="about">About me</a></h2>
         <div class="row">
-            <div class="col span_2_of_8">
-                <img class="img-responsive" src="images/perfil.jpg" alt="">
+            <div class="col-md-3">
+                <img class="img-responsive perfil" src="images/perfil2.jpg" alt="">
             </div>
-            <div class="col span_6_of_8">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel consequatur commodi aut doloremque id? Ut molestias inventore, consectetur quo numquam laudantium officiis asperiores vero esse culpa illo pariatur fugiat optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, libero aut iste! Expedita pariatur dolorem blanditiis dignissimos ad, esse tempora cumque dolorum similique reprehenderit numquam exercitationem cum illo sit hic? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam iure odit, quam vel a, consequuntur laboriosam assumenda blanditiis! Nemo qui ducimus vero perspiciatis, repellat, earum et perferendis neque molestias asperiores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam veritatis sint consequuntur molestiae nihil quasi odit, laborum earum aut nulla dolorem quis, et beatae provident sit. Inventore obcaecati, laboriosam eaque.
+            <div class="col-md-9">
+            Mi nombre es Fabiola Karina Ampuero Chalco, tengo 21 años, mi cumpleaños es el 15 de Abril, actualmente vivo con mis padres y mis dos hermanos mayores;  Diego y Pepe, tengo de mascota una coneja de orejas caídas. Estoy cursando el último semestre de Ingeniería Industrial en la Universidad Católica de Santa María, y estoy estudiando programación en Laboratoria, he descubierto un mundo nuevo de la tecnología y me gusta mucho, cada día aprendo cosas nuevas. En mi tiempo libre me gusta correr, ya sea en mi casa, en la calle o en el estadio, me gusta caminar cuando no hay sol, a veces sola para pensar y a veces acompañada para ponerme al día con mis amigos, también disfruto mucho de leer un buen libro en la combi o antes de dormir, estoy muy agradecida por la familia que tengo, cada vez que puedo los ayudo y paso tiempo con ellos.
             </div>
         </div>
     </div>
-</section>
+    </section>
 <!-------------------------------------------------------------------------- FAVORITOS ------------>
- <section class="favorites">
-     <div class="container">
+ <section class="favoritos">
+     <div class="contenedor">
          <h2><a name="fav">My Favorite Things</a></h2>
          <h3>Here are a few thing I really love</h3>
          <div class="row">
-             <div class="col span_2_of_8">
-                 <img class="img-responsive cat" src="images/kitten.jpg" alt="">
+             <div class="col-md-3">
+                 <img class="img-responsive like" src="images/familia.jpg" alt="">
+                 <p class="lik">Pasar tiempo con mi familia, salir juntos a pasear, ayudarnos y conversar.</p>
              </div>
-             <div class="col span_2_of_8">
-                 <img class="img-responsive cat" src="images/kitten.jpg" alt="">
+             <div class="col-md-3">
+                 <img class="img-responsive like" src="images/correr.jpg" alt="">
+                 <p class="lik">Salir a correr en la mañana con amigos por la calle, o correr en el estadio Melgar.</p>
              </div>
-             <div class="col span_2_of_8">
-                 <img class="img-responsive cat" src="images/kitten.jpg" alt="">
+             <div class="col-md-3">
+                 <img class="img-responsive like" src="images/leer.jpg" alt="">
+                 <p class="lik">Me gusta leer libros motivacionales y de historias de ficción.</p>
              </div>
-             <div class="col span_2_of_8">
-                 <img class="img-responsive cat" src="images/kitten.jpg" alt="">
+             <div class="col-md-3">
+                 <img class="img-responsive like" src="images/caminar.jpg" alt="">
+                 <p class="lik">Salir a caminar en la tarde o noche, cuando quiero pensar, voy sola y para conversar con amigos.</p>
              </div>
          </div>
      </div>
  </section>
  <!------------------------------------------------------------------------- CONTACTOS ------------>
  <footer>
-     <div class="container">
-         <h2>Contact Me</h2>
+     <div class="contenedor">
+         <h2><a name="contact">Contact Me</a></h2>
          <ul>
-             <li><img src="images/twitter.png" alt=""></li>
-             <li><img src="images/facebook.png" alt=""></li>
-             <li><img src="images/linkedin.png" alt=""></li>
+             <li><a href="https://twitter.com/FabiAmpuero"><img src="images/twitter.png" alt=""></a></li>
+             <li><a href="https://www.facebook.com/fabi.ampuero.chalco"><img src="images/facebook.png" alt=""></a></li>
+             <li><a href="https://www.linkedin.com/in/fabi-ampuero-89540612a?trk=nav_responsive_tab_profile"><img src="images/linkedin.png" alt=""></a></li>
          </ul>
      </div>
  </footer>
+ <!------------------------------------------------------------------ FIN DE CONTACTOS ------------>
   </body>
 </html>
