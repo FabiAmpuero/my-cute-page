@@ -45,28 +45,19 @@ header li a:hover {
 /*------------------------------------------------------------------------------ HERO ------------*/
 .hero {
     animation: fabi 8s infinite;
+    position: relative;
+    background-size:auto;
+    min-height: 500px;
 }
 @keyframes fabi {
     0%, 32% {
         background: url(../images/background.jpg) no-repeat;
-        background-attachment: scroll;
-        background-size:auto;
-        min-height: 500px;
-        position: relative;
     }
-    33%, 65% {
+    35%, 65% {
         background: url(../images/background1.jpg) no-repeat;
-        background-attachment: scroll;
-        background-size:cover;
-        min-height: 500px;
-        position: relative;
     }
-    66%, 100% {
+    68%, 100% {
         background: url(../images/background2.jpg) no-repeat;
-        background-attachment: scroll;
-        background-size:cover;
-        min-height: 500px;
-        position: relative;
     }
 }
 .hero .centro {
